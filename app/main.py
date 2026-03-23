@@ -30,3 +30,11 @@ def login():
         "message": "User login endpoint",
         "success": True
     }
+
+
+@app.post("/auth/logout")
+def logout():
+    return {
+        "message": "User logout endpoint",
+        "success": True
+    }

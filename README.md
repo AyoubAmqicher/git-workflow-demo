@@ -18,6 +18,8 @@ uvicorn app.main:app --reload
 
 - `GET /`
 - `GET /health`
+- `POST /auth/login`
+- `POST /auth/logout`
 
 ## Purpose 
 

@@ -20,9 +20,9 @@ def health_check():
     return {
         "status": "ok",
         "service": "git-workflow-demo-clean",
-        "version": "0.1.0"
+        "version": "0.1.0",
+        "environment": "production"
     }
-
 
 @app.post("/auth/login")
 def login():

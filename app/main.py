@@ -38,3 +38,13 @@ def logout():
         "message": "User logout endpoint",
         "success": True
     }
+
+
+@app.get("/profile")
+def get_profile():
+    return {
+        "id": 1,
+        "username": "system_user",
+        "email": "system@example.com",
+        "role": "admin"
+    }

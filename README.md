@@ -20,6 +20,7 @@ uvicorn app.main:app --reload
 - `GET /health`
 - `POST /auth/login`
 - `POST /auth/logout`
+- `GET /profile` → fetch current user profile with role information
 
 ## Purpose 
 

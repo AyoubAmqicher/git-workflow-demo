@@ -22,3 +22,19 @@ def health_check():
         "service": "git-workflow-demo-clean",
         "version": "0.1.0"
     }
+
+
+@app.post("/auth/login")
+def login():
+    return {
+        "message": "User login endpoint",
+        "success": True
+    }
+
+
+@app.post("/auth/logout")
+def logout():
+    return {
+        "message": "User logout endpoint",
+        "success": True
+    }

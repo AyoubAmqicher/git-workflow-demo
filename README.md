@@ -2,7 +2,23 @@
 
 A small FastAPI project built to demonstrate a professional Git workflow using realistic branching and pull request practices.
 
-## Initial Scope
-- FastAPI application setup
-- Root endpoint
-- Git workflow simulation
+## Tech Stack
+- Python
+- FastAPI
+- Uvicorn
+
+## Run locally
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+## Current Endpoints
+
+- `GET /`
+- `GET /health`
+
+## Purpose 
+
+This repository is designed to simulate a real-world team workflow and provide portfolio proof of Git skills.

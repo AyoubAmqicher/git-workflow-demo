@@ -48,3 +48,7 @@ def get_profile():
         "email": "system@example.com",
         "role": "admin"
     }
+
+@app.put("/profile")
+def update_profile():
+    return {"message": "Profile updated successfully"}

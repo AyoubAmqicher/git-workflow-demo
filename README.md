@@ -21,6 +21,7 @@ uvicorn app.main:app --reload
 - `POST /auth/login`
 - `POST /auth/logout`
 - `GET /profile` → fetch current user profile with role information
+- `PUT /profile` → update user profile
 
 ## Purpose 
 
